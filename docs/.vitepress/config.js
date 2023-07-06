@@ -4,9 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: "Particle Life",
     description: "Vivid structures from rudimentary rules.",
-    head: [
-        ['link', { rel: 'icon', href: '/public/favicon.ico' }],
-    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
