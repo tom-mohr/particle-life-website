@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base: '/particle-life-website/',
     title: "Particle Life",
     description: "Vivid structures from rudimentary rules.",
     head: [
