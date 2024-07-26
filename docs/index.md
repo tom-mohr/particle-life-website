@@ -27,8 +27,8 @@ features:
   - title: Blazingly Fast
     details: Using parallel processing and space partitioning.
   - title: Written in Java
-    details: The language we all love.
+    details: The language we all know.
   - title: Community
-    details: Our Discord server has more than 500 members who can answer your questions.
+    details: Our Discord server has 900 members who can answer your questions.
 ---
 
