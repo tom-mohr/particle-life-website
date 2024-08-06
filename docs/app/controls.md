@@ -7,7 +7,7 @@ you can become faster in working with the simulator by learning these commands:
 |------------|------------------------------|
 | `l` / `L`  | change palette               |
 | `s` / `S`  | change shader                |
-| `v` / `V`  | change accelerator           |
+| `a` / `A`  | change accelerator           |
 | `x` / `X`  | change position setter       |
 | `r` / `R`  | change matrix generator      |
 | `p`        | set positions                |
@@ -24,7 +24,6 @@ you can become faster in working with the simulator by learning these commands:
 | Scroll     | zoom camera                  |
 | `Shift`+Scroll | change cursor size |
 | `Ctrl`+Scroll | change particle size |
-| `a`        | toggle advanced GUI          |
 | `c`        | toggle traces (clear screen) |
 | `h`        | hide GUI / show GUI          |
 
