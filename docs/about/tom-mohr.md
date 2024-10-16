@@ -21,9 +21,8 @@ const members = [
 
 # About Me
 
-I'm a software developer and Computer Science Master's student in Germany.
-Feel free to reach out to me on Twitter with any questions or suggestions.
+Check out my [homepage](https://tommohr.dev).
+Feel free to reach out to me on Twitter or Discord with any questions or suggestions!
 
 <VPTeamMembers size="small" :members="members" />
 
-I'm also sometimes writing on [<img src="/medium.svg" alt="" style="display: inline; vertical-align: middle;"/>](https://medium.com/@tom-mohr) [Medium](https://medium.com/@tom-mohr).
