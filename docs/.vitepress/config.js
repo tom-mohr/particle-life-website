@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "Particle Life",
-    description: "Vivid structures from rudimentary rules.",
+    title: "Particle Life Simulator",
+    description: "Thousands of particles form life-like structures from rudimentary rules.",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
@@ -13,23 +13,14 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Desktop App',
+                text: 'Guide',
                 items: [
                     { text: 'Installation', link: '/app/installation' },
                     { text: 'GUI Commands', link: '/app/controls' },
                 ]
             },
             {
-                text: 'Terminal App',
-                items: [
-                    { text: 'Installation', link: '/cli/installation' },
-                    { text: 'GUI Commands', link: '/cli/controls' },
-                    { text: 'CLI Options', link: '/cli/options' },
-                    { text: 'Modes', link: '/cli/modes' },
-                ]
-            },
-            {
-                text: 'Java Framework',
+                text: 'Backend',
                 collapsed: true,
                 items: [
                     { text: 'Overview', link: '/java-framework/overview' },
@@ -41,6 +32,7 @@ export default defineConfig({
             },
             {
                 text: 'About',
+                collapsed: true,
                 items: [
                     { text: 'About This Project', link: '/about/project' },
                     { text: 'Other Implementations', link: '/about/implementations' },
@@ -57,7 +49,7 @@ export default defineConfig({
 
         editLink: {
             pattern: 'https://github.com/tom-mohr/particle-life-website/edit/main/docs/:path',
-            text: 'Edit this page',
+            text: 'edit this page on GitHub',
         },
     }
 })

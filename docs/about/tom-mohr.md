@@ -23,6 +23,7 @@ const members = [
 
 Check out my [homepage](https://tommohr.dev).
 Feel free to reach out to me on Twitter or Discord with any questions or suggestions!
+You can also send me an email at [tom.g.mohr@gmail.com](mailto:tom.g.mohr@gmail.com).
 
 <VPTeamMembers size="small" :members="members" />
 
